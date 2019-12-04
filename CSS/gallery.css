@@ -1,0 +1,55 @@
+.wrapper {
+    position: absolute;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+}
+
+.img:hover{
+    filter: blur(2px);
+    opacity: .65;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 15em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 25em;
+    margin-right: 25em;
+    position: absolute;
+}
+
+#about-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 25em;
+    margin-right: 25em;
+}
+
+#about-image{
+    width: 750px;
+    height: 750px;
+}
+
+#about-text{
+    margin-bottom: 1em;
+    margin-left: 100px;
+    text-align: left;
+    font-family: Lato;
+    font-size: 75px;
+    font-weight: 15;
+}
+
+#image-container{
+    flex: 1;
+    margin-bottom: 35px;
+}
+
+.middle{
+    position: relative;
+}

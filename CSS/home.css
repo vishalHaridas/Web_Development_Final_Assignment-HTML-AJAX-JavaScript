@@ -1,0 +1,18 @@
+#landing-element{
+    background-image: url(../assets/img/landing-page.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 35px;
+    overflow: hidden;
+}
+a{
+    color: #909090;
+}
+a:hover{
+    color: #d1ab6b;
+}

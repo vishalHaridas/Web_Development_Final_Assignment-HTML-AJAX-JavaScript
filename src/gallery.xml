@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../css/xslt/gallery-style.xsl"?>
+
+<gallery>
+    <image>
+        <src>https://static1.squarespace.com/static/56d4a125e707eb7a02e4055f/t/56d4adcfd51cd46806b9d7e2/1456778711357/65.jpg?format=750w</src>
+        <height units="pixels"> 500</height>
+        <width units="pixels"> 500</width>
+    </image>
+    <image>
+        <src>https://static1.squarespace.com/static/56d4a125e707eb7a02e4055f/t/56d5f1bfcf80a1de585417ef/1456861682383/3.jpg?format=500w</src>
+        <height units="pixels"> 500</height>
+        <width units="pixels"> 500</width>
+    </image>
+    <image>
+        <src>https://static1.squarespace.com/static/56d4a125e707eb7a02e4055f/t/56d4a71320c6470d703c37b3/1456776984496/1.jpg?format=500w</src>
+        <height units="pixels"> 500</height>
+        <width units="pixels"> 500</width>
+    </image>
+    <image>
+        <src>https://static1.squarespace.com/static/56d4a125e707eb7a02e4055f/t/56d4c247356fb0434a231989/1456783947285/83.jpg?format=750w</src>
+        <height units="pixels"> 500</height>
+        <width units="pixels"> 500</width>
+    </image>
+    <image>
+        <src>https://static1.squarespace.com/static/56d4a125e707eb7a02e4055f/t/56d4b05437013b227d5a4c43/1456779355229/21.jpg?format=500w</src>
+        <height units="pixels"> 500</height>
+        <width units="pixels"> 500</width>
+    </image>
+    <image>
+        <src>https://static1.squarespace.com/static/56d4a125e707eb7a02e4055f/t/56d4b3d74d088e0ea4715d5b/1456780252776/13.jpg?format=500w</src>
+        <height units="pixels"> 500</height>
+        <width units="pixels"> 500</width>
+    </image>
+</gallery>
+

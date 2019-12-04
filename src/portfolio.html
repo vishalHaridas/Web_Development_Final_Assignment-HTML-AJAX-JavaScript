@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <div id="landing-element">
+    <div class="wrapper">   <!-- to keep nav bar from displaying scrollbar -->
+        <div id="navbar" class="navbar">
+
+        <ul>
+          <li id="about-link" onclick="scrollToElement('first')" class="active" href="#">ABOUT</li>
+          <li id="education-link" onclick="scrollToElement('second')" href="#">EDUCATION</li>
+          <li id="skills-link" onclick="scrollToElement('third')" href="#">SKILLS</li>
+          <li id="view-link" onclick="scrollToElement('fourth')" href="#">VIEWS</li>
+          <li id="gallery-link"><a href="../src/index.html">HOME</a></li>
+          <li class="active" href="#">PORTFOLIO</li>
+          <li id="gallery-link"><a href="../src/gallery.html">GALLERY</a></li>
+          <li id="contact-link"><a href="../src/contact.html">CONTACT</a></li>  
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div id="first" class="title">
+    <h2>ABOUT</h2> 
+  </div>
+
+  <div id="mini-title">
+    Fun Facts:
+  </div>
+  <div class="content">
+    My name is Vishal. It means "Big". I play video games like it is my life's purpose, I have a bird named Bluey, because he is blue. Very creative I know. Hate that 
+    little devil. I love Chineese food and LOVED Infinity War. Thanos' plan was logistically and economically viable and Vision sucked anyways. My favorite number is 7 
+    because I just thought of it. I can ride a bike, which is pretty badass according to me. I broke my arm once, and I am really hoping that you are viewing this on atleast
+    a 1080p screen because media queries are annoying and it won't look pretty nor work if the screen is of lower resolution :/
+  </div>
+
+  <div id="mini-title">
+    A Deeper Look
+  </div>
+  <div id="about-wrapper" >
+    <div class="content deep-look">
+      Creative, astute with a passion for an ideation, design and manufacture of anything that I set my mind to. With in-depth knowledge on most of any 
+      of the tools that are required to make anything that is innovative and intutive. I have had a childhood passion with the computers and a certain "morbid-curiosity" on
+      knowing what is behind all the lights and clock-work.   
+    </div>
+    <div>
+      <img src="../assets/img/mainDp.png">
+    </div>
+</div>
+
+
+<div id="second" class="title">
+  <h2>EDUCATION</h2> 
+</div>
+<div id="mini-title">
+  ICSE
+</div>
+<div id="school">
+  St. Anne's Public School, India
+</div>
+<div class="content">
+  <p>Subjects: &nbsp </p>Science, Math, Business, English, Social Studies, ICT & Poilitics
+</div>
+
+<div id="mini-title">
+  O Levels
+</div>
+<div id="school">
+  Al Diyafah High School, Dubai
+</div>
+<div class="content">
+  <p>Subjects: &nbsp </p>Physics, Math, Business, English, Environmental Management, ICT & Accounting
+</div>
+
+<div id="mini-title">
+  AS Levels
+</div>
+<div id="school">
+  Al Diyafah High School, Dubai
+</div>
+<div class="content">
+  <p>Subjects: &nbsp </p>Physics, Math, Business, Computer Science & Accounting
+</div>
+
+
+<div id="third" class="title">
+  <h2>SKILLS</h2> 
+</div>
+
+<div class="skill-container">
+  <div id="general">
+    <div id="mini-title">Web Design</div>
+    <div id="skill-label">
+      <h3>HTML</h3>
+      <span class="percent">72%</span>
+      <div style="clear:both;"></div>
+    </div>
+    <div class="bar">
+      <div class="progress" id="progress" style="width: 72%;"></div>
+    </div>
+
+    <div id="skill-label">
+      <h3>CSS</h3>
+      <span class="percent">85%</span>
+      <div style="clear:both;"></div>
+    </div>
+    <div class="bar">
+      <div class="progress" id="progress" style="width: 85%;"></div>
+    </div>
+
+    <div id="skill-label">
+      <h3>XML</h3>
+      <span class="percent">65%</span>
+      <div style="clear:both;"></div>
+    </div>
+    <div class="bar">
+      <div class="progress" id="progress" style="width: 65%;"></div>
+    </div>
+
+    <div id="skill-label">
+      <h3>Local Databases</h3>
+      <span class="percent">5%</span>
+      <div style="clear:both;"></div>
+    </div>
+    <div class="bar">
+      <div class="progress" id="progress" style="width: 5%;"></div>
+    </div>
+  </div>
+
+  <div id="general">
+      <div id="mini-title">Programming</div>
+      <div id="skill-label">
+        <h3>Python</h3>
+        <span class="percent">60%</span>
+        <div style="clear:both;"></div>
+      </div>
+      <div class="bar">
+        <div class="progress" class="progress" id="progress" style="width: 60%;"></div>
+      </div>
+  
+      <div id="skill-label">
+        <h3>Java</h3>
+        <span class="percent">35%</span>
+        <div style="clear:both;"></div>
+      </div>
+      <div class="bar">
+        <div class="progress" id="progress" style="width: 35%;"></div>
+      </div>
+
+      <div id="skill-label">
+          <h3>C#</h3>
+          <span class="percent">46%</span>
+          <div style="clear:both;"></div>
+        </div>
+        <div class="bar">
+          <div class="progress" id="progress" style="width: 46%;"></div>
+        </div>
+  
+      <div id="skill-label">
+        <h3>JavaScript</h3>
+        <span class="percent">55%</span>
+        <div style="clear:both;"></div>
+      </div>
+      <div class="bar">
+        <div class="progress" id="progress" style="width: 55%;"></div>
+      </div>
+
+    </div>
+
+    <div id="general">
+        <div id="mini-title">Other</div>
+        <div id="skill-label">
+          <h3>Microsoft Office</h3>
+          <span class="percent">88%</span>
+          <div style="clear:both;"></div>
+        </div>
+        <div class="bar">
+          <div class="progress" id="progress" style="width: 88%;"></div>
+        </div>
+    
+        <div id="skill-label">
+          <h3>3D</h3>
+          <span class="percent">42%</span>
+          <div style="clear:both;"></div>
+        </div>
+        <div class="bar">
+          <div class="progress" id="progress" style="width: 42%;"></div>
+        </div>
+    
+        <div id="skill-label">
+          <h3>Adobe Creative Suite</h3>
+          <span class="percent">75%</span>
+          <div style="clear:both;"></div>
+        </div>
+        <div class="bar">
+          <div class="progress" id="progress" style="width: 75%;"></div>
+        </div>
+    
+        <div id="skill-label">
+          <h3>Driving</h3>
+          <span class="percent">102%</span>
+          <div style="clear:both;"></div>
+        </div>
+        <div class="bar">
+          <div class="progress" id="progress" style="width: 102%;"></div>
+        </div>
+      </div>
+</div>
+
+  <!-- <div id="fourth" class="title">
+    <h2>LINKS</h2> 
+  </div>
+<div id="element-wrapper">
+  <div id="element-container">
+    <p><a href="#">Contact me</a></p>
+  </div> 
+  <div id="element-container">
+    <p><a href="../src/gallery.html">Gallery</a></p>
+  </div>
+</div> -->
+  
+
+
+  <div id="fourth" class="title">
+    <h2>VIEWS</h2> 
+  </div>
+
+  <div id="element-wrapper">
+    <div id="element-container">
+      <p id="like-tag" class="like-tag">Like this page</p>
+      <img src="../assets/img/like.png" id="like-button" onclick="likePage()"
+      onmouseover="this.src='../assets/img/liked.png'; document.getElementById('like-tag').style.color = 'white';" 
+      onmouseout="this.src='../assets/img/like.png'; document.getElementById('like-tag').style.color = '#909090';">
+    </div>
+    <div id="element-container">
+        <p id="like-count">0</p>
+      </div>
+    <div id="element-container">
+        <p id="dislike-tag" class="like-tag">Dislike this page</p>
+        <img src="../assets/img/dis-like.png" id="dislike-button" onclick="disLikePage()" 
+        onmouseover="this.src='../assets/img/dis-liked.png'; document.getElementById('dislike-tag').style.color = 'white';" 
+        onmouseout="this.src='../assets/img/dis-like.png'; document.getElementById('dislike-tag').style.color = '#909090'">
+      </div>
+  </div>
+  
+
+  <div style="margin-bottom: 1.8em;"></div>
+</body>
+<script src="../JS/main.js"></script>
+</html>
+
+
+

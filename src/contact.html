@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="..//CSS/contact.css">
+</head>
+<body>
+
+    <div class="wrapper">   <!-- to keep nav bar from displaying scrollbar -->
+        <div id="navbar" class="navbar">
+        <ul>
+          <li><a href="../src/index.html" >HOME</a></li>
+          <li><a href="../src/portfolio.html" >PORTFOLIO</a></li>
+          <li><a href="../src/gallery.html">GALLERY</a></li>
+          <li class="active" href="#">CONTACT</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>Contact Form</h2>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="email">E-Mail</label>
+        <input type="text" id="email" name="lastname" placeholder="Your e-mail..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">UAE</option>
+          <option value="canada">India</option>
+          <option value="usa">Pakistan</option>
+          <option value="usa">Australia</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div style="height: 10em;" ></div>
+
+    
+</body>
+</html>

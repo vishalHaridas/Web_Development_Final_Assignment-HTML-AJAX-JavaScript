@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/gallery.css">
+</head>
+<body onload="hideDiv()">
+
+    <div class="wrapper">   <!-- to keep nav bar from displaying scrollbar -->
+        <div id="navbar" class="navbar">
+
+        <ul>
+          <li><a href="../src/index.html" >HOME</a></li>
+          <li><a href="../src/portfolio.html" >PORTFOLIO</a></li>
+          <li class="active" href="#">GALLERY</li>
+          <li><a href="../src/contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="title">
+        <h2>MOVIE PICKS</h2> 
+    </div>
+
+    <div id="about-container">
+        <div id="about-wrapper">
+            <img id="about-image" src="">
+        </div>
+        <div id="about-wrapper">
+                <p id="about-text" ></p>
+            </div>
+    </div>
+
+    <div class="container">
+        <div id="image-container">
+            <img onclick="showPhoto('img1')" id="img1" class="img" alt="SUMMIT" src="../assets/img/Photos/1.jpg">
+        </div>
+        <div id="image-container">
+            <img onclick="showPhoto('img2')" class="img" id="img2" alt="SHORE" src="../assets/img/Photos/2.jpg">
+        </div>
+        <div id="image-container">
+            <img onclick="showPhoto('img3')" class="img" id="img3" alt="SWAN" src="../assets/img/Photos/3.jpg">
+        </div>
+        <div id="image-container">
+            <img onclick="showPhoto('img4')" class="img" id="img4" alt="NIGHT" src="../assets/img/Photos/4.jpg">
+        </div>
+        <div id="image-container">
+            <img onclick="showPhoto('img5')" class="img" id="img5" alt="MARINE" src="../assets/img/Photos/5.jpg">
+        </div>
+        <div id="image-container">
+            <img onclick="showPhoto('img6')" class="img" id="img6" alt="FOG" src="../assets/img/Photos/6.jpg">
+        </div>
+        <div id="image-container">
+            <img onclick="showPhoto('img7')" class="img" id="img7" alt="PIER" src="../assets/img/Photos/7.jpg">
+        </div>
+        <div id="image-container">
+            <img onclick="showPhoto('img8')" class="img" id="img8" alt="SKYLINE" src="../assets/img/Photos/8.jpg">
+        </div>
+        <div id="image-container">
+            <img onclick="showPhoto('img9')" class="img" id="img9" alt="BUILDING" src="../assets/img/Photos/9.jpg">
+        </div>
+        <div id="image-container">
+            <img onclick="showPhoto('img10')" class="img" id="img10" alt="PARK" src="../assets/img/Photos/10.jpg">
+        </div>
+        <div id="image-container">
+            <img onclick="showPhoto('img11')" class="img" id="img11" alt="PATH" src="../assets/img/Photos/11.jpg">
+        </div>
+        <div id="image-container">
+            <img onclick="showPhoto('img12')" class="img" id="img12" alt="WAIT" src="../assets/img/Photos/12.jpg">
+        </div>
+    </div>
+</body>
+<script src="../JS/gallery.js"></script>
+</html>
